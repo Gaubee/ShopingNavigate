@@ -1,0 +1,64 @@
+
+.shopNav{
+	width: 250px;
+}
+.icon{
+	width: 3em;
+	height: 2em;
+	display: block;
+	float: left;
+}
+.navItem{
+	list-style: none;
+	/*height: 2em;*/
+	*overflow: hidden;
+	border: solid 1px #f2f2f2;
+	min-height: 2em;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft Yahei",simsun;
+	background: #EE8;
+	vertical-align: middle;
+}
+.navItem.active{
+	border: solid 1px #dd333c;
+	border-right:solid 1px #f2f2f2;
+	/*border: #dd333c;*/
+}
+.navItem .navTitle{
+	width: 100%;
+	height: auto;
+	display: block;
+	text-decoration: none;
+	color: #474747;
+}
+.navItem .name{
+	display: block;
+	float: left;
+}
+.navItem .after{
+	display: block;
+	width: 1em;
+	height: 2em;
+	float: right;
+	/*background-color: #EE8;*/
+}
+.navItem .after.hover{
+	background-color: #EE8;
+	/**/position: relative;
+	z-index: 9;
+	left: 1px;
+	/*color: transparent;*/
+}
+.navContent{
+	border: solid 1px #dd333c;
+	background: #EE8;
+	width: 365px;
+	position: relative;
+}
+/*.navContent .cardTitle{
+	margin: 0.5em 0.75em;
+}*/
+
+.clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { *zoom:1; }
